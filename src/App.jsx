@@ -22,9 +22,7 @@ function App() {
 
         <Route path='/home' element={<CustomDropdown />} />
 
-        <Route   path="/chat"  element={   <ProtectedRoute><ChatApp /> </ProtectedRoute>
-                    }
-                />
+        <Route path="/chat" element={<ChatApp />} />
       </Routes>
     </Router>
     </ThemeProvider>
