@@ -229,4 +229,13 @@ function All() {
     //         </ul>
     //     </div>
     // );
-} 
+
+    return (
+        <div>
+            <h1>All Component</h1>
+            <p>This is a placeholder component with commented practice code.</p>
+        </div>
+    );
+}
+
+export default All;
